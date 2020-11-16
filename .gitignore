@@ -1,0 +1,12 @@
+# thirdparty/vcpkg contains all necessary libraries, compiled and ready to be used by the solution file.
+# This version of vcpkg is a minimal version - it contains the libraries and the toolchain scripts to generate the Visual Studio solution
+# All of the libraries in vcpkg folder are stored in folders like lib and bin, with extensions like .dll and .lib
+# Hence to not let any of those files get ignored, this .gitignore file doesn't include conventional exclusions like bin, lib, .dll, .lib
+# Rather the entire directory and the files inside _solutiondir will be ignored, because they will be created using the files and the toolchain scripts
+# present in vcpkg folder.
+
+# TLDR:- DO NOT PUT STUFF LIKE bin, lib, .dll, .lib in .gitignore. Delete the unnecessary folders manually ,on outermost level of the repo,
+# if a commit needs to be pushed.
+
+_solutiondir/
+!thirdparty/vcpkg/*

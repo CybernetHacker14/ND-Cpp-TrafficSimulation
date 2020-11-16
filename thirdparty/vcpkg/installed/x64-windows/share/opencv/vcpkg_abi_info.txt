@@ -1,0 +1,8 @@
+CONTROL 1b9781b3adff0604abbc2b17bcea187b4b0824b0
+cmake 3.18.4
+features core;dnn;jpeg;opengl;png;tiff;webp
+opencv4 b710a5b875b7444bc5edba1377684cfceeb99aea
+portfile.cmake 50a40d59f0012d88dcc1b3eb9cff496885c00e9e
+post_build_checks 2
+powershell 7.0.3
+triplet 3eab5c64d9cf628fc0aec277fde66dbdc69b8516-a1c0eabb0c5177b6a8fb97a58ae398880c47b352-a5a52d3ca7ad38a4f7b764d75df11399cb9f06b3
