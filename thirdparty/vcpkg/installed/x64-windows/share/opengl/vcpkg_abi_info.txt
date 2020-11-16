@@ -1,0 +1,9 @@
+CONTROL ab8f4093dce5efbc8e6ffb75a1471d1e7ac67ecd
+cmake 3.18.4
+features core
+portfile.cmake c60f97edff101168aeb80929c90b1464e08dcad9
+post_build_checks 2
+powershell 7.0.3
+triplet 3eab5c64d9cf628fc0aec277fde66dbdc69b8516-a1c0eabb0c5177b6a8fb97a58ae398880c47b352-a5a52d3ca7ad38a4f7b764d75df11399cb9f06b3
+usage 3797210343c9dadf69d03f7dab79c410736c8ef5
+vcpkg_get_windows_sdk e492310be00526e19cfc4a1ace85ce86eb298a23
